@@ -1,0 +1,146 @@
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  } 
+.text{
+  color:#674188;
+  font-size:30px;
+  justify-content: space-between;
+  margin:0%;
+  width:auto;
+  padding:5%
+}
+header>h1{
+  display:inline;
+  color:#674188;
+}
+header>div{
+  display:inline;
+}
+header>div>a{
+  display:inline-block;
+}
+body{
+    background-color: #F7EFE5;
+}
+a{
+    display: inline; 
+    float:right; 
+    padding: 1%;
+    color:#674188;
+    text-decoration: none;
+}
+a:hover{
+    background-color:#674188;
+    color:#F7EFE5;
+}
+footer{
+    background-color:#E2BFD9;
+    color:#674188;
+    text-align: center;
+    padding: 3%;
+    clear: both;
+}
+div>h1{
+    font-size: 80px;
+}
+p{
+  width:200px;
+}
+.image{
+  border-radius:10%;
+  height:300px;
+  width:300px;
+}
+.card{
+  display:inline-flex;
+  gap:10px;
+  padding:5px;
+}
+.main_card{
+  display:inline-flex;
+}
+ul{
+  list-style-type:none;
+}
+.price{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.price_elements{
+  background-color: #674188;
+  color: #F7EFE5;
+  flex-basis:400px;
+  padding:5%;
+}
+.price_elements:hover{
+  background-color:#E2BFD9;
+  color:#674188;
+  flex-basis:400px;
+  padding:5%;
+}
+@media screen and (max-width:1100px){
+  .main_card{
+    display:block;
+  }
+  body{
+    text-align: center;
+  }
+}
+@media screen and (max-width:900px){
+  div>h1{
+      font-size: 50px;
+  }
+  .card{
+    padding: 0%;
+  }
+  .price{
+    flex-wrap: wrap;
+  }
+}
