@@ -1,6 +1,6 @@
 # Web Design Agency
 This website is a practice project. It aims to mimic a Web Design Agency website. The goal of this agency is to make client websites interacticve, stylish and modern. 
-<br>https://tanvis3000.github.io/WebDesignAgency/
+<br>Checkout the website @ https://tanvis3000.github.io/WebDesignAgency/
 <br>There are 3 pages in this website.
 1. Home
 2. About
